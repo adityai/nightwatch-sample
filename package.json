@@ -1,0 +1,22 @@
+{
+  "name": "nightwatch-sample-tests",
+  "version": "1.0.0",
+  "description": "Sample nightwatch web automation tests",
+  "main": "nightwatch.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "aditya inapurapu",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chromedriver": "^74.0.0",
+    "fs": "0.0.1-security",
+    "jest": "^24.7.1",
+    "mocha": "^6.1.4",
+    "nightwatch": "^1.0.19",
+    "selenium": "^2.20.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
