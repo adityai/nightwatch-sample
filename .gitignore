@@ -1,7 +1,7 @@
 .*project
 .jshintrc
 .settings
-/node-modules/
+/node_modules/
 .DS_Store/
 log/*.log
 reports/XMLReports/*
