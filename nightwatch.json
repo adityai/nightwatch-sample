@@ -13,6 +13,10 @@
       "port": 4444,
       "cli_args": {
         "webdriver.chrome.driver": "lib/drivers/chromedriver"
+      },
+      "test_workers": {
+        "enabled": true,
+        "workers": "auto"
       }
     },
     "test_settings" : {
@@ -30,9 +34,7 @@
               "browserName": "chrome",
               "chromeOptions": {
                 "args": [
-                    "headless",
                     "no-sandbox",
-                    "disable-gpu",
                   "disable-web-security",
                  "ignore-certificate-errors",
                  "--test-type"
