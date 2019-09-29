@@ -5,7 +5,7 @@
     "custom_assertions_path": "",
     "page_objects_path": "pages",
     "selenium": {
-      "start_process": true,
+      "start_process": false,
       "server_path": "lib/drivers/selenium-server-standalone-3.141.59.jar",
       "start_session": true,
       "log_path": "log/",
@@ -20,7 +20,7 @@
       }
     },
     "test_settings" : {
-        "chrome": {
+        "default": {
             "launch_url": "http://localhost",
             "selenium_port": 4444,
             "selenium_host": "localhost",
@@ -42,11 +42,6 @@
                 ]
               }
             }
-          },
-      "edge" : {
-        "desiredCapabilities": {
-          "browserName": "MicrosoftEdge"
-        }
       }
     }
   }
