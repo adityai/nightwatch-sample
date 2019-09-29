@@ -34,10 +34,11 @@
               "browserName": "chrome",
               "chromeOptions": {
                 "args": [
-                    "no-sandbox",
+                  "headless",
+                  "no-sandbox",
                   "disable-web-security",
-                 "ignore-certificate-errors",
-                 "--test-type"
+                  "ignore-certificate-errors",
+                  "--test-type"
                 ]
               }
             }
