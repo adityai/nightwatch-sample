@@ -34,7 +34,6 @@
               "browserName": "chrome",
               "chromeOptions": {
                 "args": [
-                  "headless",
                     "no-sandbox",
                   "disable-web-security",
                  "ignore-certificate-errors",
